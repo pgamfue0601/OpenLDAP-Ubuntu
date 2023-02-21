@@ -1,0 +1,66 @@
+# Unidad organizativa: Astronautas europeos
+dn: ou=astronautas,dc=tiaeroespacial,dc=es
+objectClass: organizationalUnit
+ou: astronautas
+
+# Unidad organizativa: Robots espaciales
+dn: ou=robot,dc=tiaeroespacial,dc=es
+objectClass: organizationalUnit
+ou: robot
+
+# Astronauta 1
+dn: uid=pabloalvarez,ou=astronautas,dc=tiaeroespacial,dc=es
+objectClass: inetOrgPerson
+uid: pabloalvarez
+sn: Alvarez Fernandez
+cn: Pablo
+st: Leon
+initials: PAF
+userPassword: pabloaf
+
+# Astronauta 2
+dn: uid=saragarcia,ou=astronautas,dc=tiaeroespacial,dc=es
+objectClass: inetOrgPerson
+uid: saragarcia
+sn: Garcia Alonso
+cn: Sara
+st: Leon
+initials: SGA
+userPassword: saraga
+
+# Astronauta 3
+dn: uid=pedroduque,ou=astronautas,dc=tiaeroespacial,dc=es
+objectClass: inetOrgPerson
+uid: pedroduque
+sn: Duque Duque
+cn: Pedro Francisco
+st: Madrid
+initials: PFDD
+userPassword: pedrofdd
+
+# Robot 1
+dn: uid=robotclear,ou=robot,dc=tiaeroespacial,dc=es
+objectClass: inetOrgPerson
+uid: robotclear
+sn: ESA
+cn: Clearspace
+title: Robot limpiador de basura espacial
+userPassword: robot1
+
+# Robot 2
+dn: uid=robotlemur,ou=robot,dc=tiaeroespacial,dc=es
+objectClass: inetOrgPerson
+uid: robotlemur
+sn: NASA
+cn: Lemur
+title: Robot explorador
+userPassword: robot2
+
+# Robot 3
+dn: uid=robotcimon,ou=robot,dc=tiaeroespacial,dc=es
+objectClass: inetOrgPerson
+uid: robotcimon
+sn: SpaceX
+cn: Cimon-2
+title: Robot monitorizador, experimentador
+userPassword: robot3
